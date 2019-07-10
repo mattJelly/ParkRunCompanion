@@ -1,2 +1,2 @@
-# ParkRunMobile_UI
+# ParkRunCompanion
 The UI project for ParkRun App
