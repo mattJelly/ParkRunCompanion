@@ -1,0 +1,23 @@
+name: ParkRunCompanion
+options:
+  bundleIdPrefix: mr
+targets:
+  ParkRunCompanion:
+    type: application
+    platform: iOS
+    deploymentTarget: "12.0"
+    sources: [ParkRunCompanion]
+    scheme:
+      testTargets:
+        - ParkRunCompanionTests
+        - ParkRunCompanionUITests
+  ParkRunCompanionTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "12.0"
+    sources: [ParkRunCompanionTests]
+  ParkRunCompanionUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "12.0"
+    sources: [ParkRunCompanionUITests]
