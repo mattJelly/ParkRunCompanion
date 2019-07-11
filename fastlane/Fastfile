@@ -23,5 +23,8 @@ platform :ios do
       spec: "project.yml",
       project: "ParkRunCompanion.xcodeproj"
     )
+    cocoapods(
+      podfile: "Podfile"
+    )
   end
 end
