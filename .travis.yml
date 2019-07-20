@@ -3,4 +3,10 @@ language: objective-c
 xcode_workspace: ParkRunCompanion.xcworkspace
 xcode_scheme: ParkRunCompanion
 xcode_destination: platform=iOS Simulator,OS=12.0, name=iPhone XR
-install: ./travisinstall.sh
+addons:
+  homebrew:
+    packages:
+    - xcodegen
+before_install: 
+- xcodegen generate
+- pod install
