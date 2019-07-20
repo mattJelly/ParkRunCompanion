@@ -7,6 +7,6 @@ addons:
   homebrew:
     packages:
     - xcodegen
-before_install: 
+install: 
 - xcodegen generate
 - pod install
