@@ -5,6 +5,7 @@ xcode_workspace: ParkRunCompanion.xcworkspace
 xcode_scheme: ParkRunCompanion
 xcode_destination: platform=iOS Simulator,OS=12.0, name=iPhone XR
 before_install:
+- bundle install
 - brew update
 install:
 - brew install xcodegen
