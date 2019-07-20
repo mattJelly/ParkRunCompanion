@@ -4,4 +4,4 @@ sudo gem install bundler
 bundle install
 xcodegen generate
 bundle exec fastlane install_plugins
-bundle exec fastlane first_build
+bundle exec pod install
