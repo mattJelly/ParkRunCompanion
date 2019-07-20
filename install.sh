@@ -1,5 +1,5 @@
 
-brew install xcodegen
+brew install homebrew/linuxbrew-core/xcodegen
 gem install bundler
 bundle install
 xcodegen generate
